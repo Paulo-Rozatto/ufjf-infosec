@@ -1,0 +1,28 @@
+{
+   "users": [
+      {
+         "userId": "id01",
+         "username": "tom",
+         "password": "tom123",
+         "role": "Parent"
+      },
+      {
+         "userId": "id02",
+         "username": "chico",
+         "password": "chico123",
+         "role": "Child"
+      }
+   ],
+   "actions": {
+      "addUsers": [
+         "Parent"
+      ],
+      "getUsers": [
+         "Parent"
+      ],
+      "getAppliance": [
+         "Parent",
+         "Child"
+      ]
+   }
+}
